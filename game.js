@@ -32,11 +32,11 @@ function rightGuess() {
     document.getElementById("mainHeading").innerHTML = "You guessed right!";
     document.getElementById("mainHeading").style.color = "green";
     document.getElementById("mainHeading").style.marginLeft = "13cm";
-    setTimeout(() => {location.reload(), 3000});
+    setTimeout(() => {location.reload()}, 3000);
 
 }
 function wrongGuess() {
     document.getElementById("mainHeading").innerHTML = "You guessed wrong!";
     document.getElementById("mainHeading").style.color = "red";
-    setTimeout(() => {location.reload(), 2000});
+    setTimeout(() => {location.reload()}, 2000);
 }
