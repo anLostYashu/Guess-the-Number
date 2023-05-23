@@ -1,5 +1,5 @@
 body {
-  background: url(abstract-modern-cool-geometric-pattern-background-vector.jpg);
+  background: url('https://static.vecteezy.com/system/resources/previews/001/227/759/original/abstract-modern-cool-geometric-pattern-background-vector.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -14,7 +14,6 @@ body {
   color: #fa4eac;
   text-decoration: underline;
   width: max-content;
-  @media screen and (max-width: 700px);
 }
 #mainHeading:hover {
   color: #fa4eadb0;
@@ -36,7 +35,6 @@ body {
   animation: glow-1 3s infinite;
   color: white;
   border-width: 3px;
-  @media screen and (max-width: 700px);
 }
 #input:focus {
   animation: glow-1 3s infinite;
@@ -94,4 +92,19 @@ body {
 }
 #resBtn {
   margin-left: 11.8cm;
+}
+@media screen and (max-width:650px){
+#input{
+  margin-left: 4cm;
+}
+#resBtn{
+transform:translateX(-300px);
+position:absolute;
+}
+.buttons{
+  transform:translateX(300px);
+}
+#mainHeading{
+  margin-left:5cm;
+}
 }
